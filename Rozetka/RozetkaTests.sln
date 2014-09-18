@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozetkaTest.Specs", "RozetkaTests.Specs\RozetkaTest.Specs.csproj", "{CC75B81D-6384-4340-AA3F-434978FE3997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozetkaTest.PageObjects", "RozetkaTest.PageObjects\RozetkaTest.PageObjects.csproj", "{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F52E981D-5007-4101-B592-85B1A139C9C4}"
+	ProjectSection(SolutionItems) = preProject
+		nunit.build.xml = nunit.build.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.ReportDecoder", "SpecFlow.ReportDecoder\SpecFlow.ReportDecoder.csproj", "{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Deploy-Demo|Any CPU = Deploy-Demo|Any CPU
+		Deploy-Demo|x86 = Deploy-Demo|x86
+		Deploy-Dev|Any CPU = Deploy-Dev|Any CPU
+		Deploy-Dev|x86 = Deploy-Dev|x86
+		Deploy-QA|Any CPU = Deploy-QA|Any CPU
+		Deploy-QA|x86 = Deploy-QA|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		Test-Server|Any CPU = Test-Server|Any CPU
+		Test-Server|x86 = Test-Server|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Demo|Any CPU.Build.0 = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Demo|x86.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Dev|Any CPU.Build.0 = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-Dev|x86.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-QA|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-QA|Any CPU.Build.0 = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Deploy-QA|x86.ActiveCfg = Debug|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Test-Server|Any CPU.ActiveCfg = Test-Server|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Test-Server|Any CPU.Build.0 = Test-Server|Any CPU
+		{CC75B81D-6384-4340-AA3F-434978FE3997}.Test-Server|x86.ActiveCfg = Test-Server|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Demo|Any CPU.Build.0 = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Demo|x86.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Dev|Any CPU.Build.0 = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-Dev|x86.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-QA|Any CPU.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-QA|Any CPU.Build.0 = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Deploy-QA|x86.ActiveCfg = Debug|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Test-Server|Any CPU.ActiveCfg = Test-Server|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Test-Server|Any CPU.Build.0 = Test-Server|Any CPU
+		{1486E68A-DA0C-4F23-8B78-3C1CE2C1D4D9}.Test-Server|x86.ActiveCfg = Test-Server|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Demo|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Demo|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Demo|x86.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Dev|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-Dev|x86.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-QA|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-QA|Any CPU.Build.0 = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Deploy-QA|x86.ActiveCfg = Debug|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Test-Server|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Test-Server|Any CPU.Build.0 = Release|Any CPU
+		{B2BB5621-6E3D-492A-B2ED-BD7708E0DD3F}.Test-Server|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

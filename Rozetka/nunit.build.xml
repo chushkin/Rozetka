@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="DoAll">
+  <ItemGroup>
+    <NUnitAddinFiles Include="$(teamcity_dotnet_nunitaddin)-2.6.3.*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Test-Server</Configuration>
+    <teamcity_build_checkoutDir Condition=" '$(teamcity_build_checkoutDir)' == '' ">..</teamcity_build_checkoutDir>
+    <NUnitHome>C:/Program Files (x86)/NUnit 2.6.3</NUnitHome>
+    <NUnitConsole>&quot;$(NUnitHome)\bin\nunit-console.exe&quot;</NUnitConsole>
+    <testResultsTxt>&quot;$(teamcity_build_checkoutDir)\TestResult.txt&quot;</testResultsTxt>
+    <testResultsXml>&quot;$(teamcity_build_checkoutDir)\TestResult.xml&quot;</testResultsXml>
+    <projectFile>&quot;$(teamcity_build_checkoutDir)\WebTutorTests\WebTutorTests.Specs\WebTutorTest.Specs.csproj&quot;</projectFile>
+    <SpecflowExe Condition=" '$(SpecflowExe)' == '' ">$(teamcity_build_checkoutDir)\WebTutorTests\packages\SpecFlow.1.9.0\tools\specflow.exe</SpecflowExe>
+    <Categories Condition=" '$(Categories)' == '' ">approved</Categories>    
+  </PropertyGroup>
+
+  <Target Name="Build">
+    <MSBuild Projects ="WebTutorTests.sln"
+				 ContinueOnError ="false"
+				 Properties="Configuration=$(Configuration);Platform=Any CPU;AllowUnsafeBlocks=true;SkipInvalidConfigurations=true;">
+      <Output ItemName="OutputFiles" TaskParameter="TargetOutputs"/>
+    </MSBuild>
+  </Target>
+
+  <Target Name="RunTests" DependsOnTargets="Build">
+    <MakeDir Directories="$(NUnitHome)/bin/addins" />
+    <Copy SourceFiles="@(NUnitAddinFiles)" DestinationFolder="$(NUnitHome)/bin/addins" />
+    <Exec  Condition=" '$(Categories)' != '' " Command="$(NUnitConsole) /domain:multiple /labels /config:$(Configuration) /include:$(Categories) /out:$(testResultsTxt) /xml:$(testResultsXml) $(projectFile)" ContinueOnError="true"/>
+    <Exec  Condition=" '$(Categories)' == '' " Command="$(NUnitConsole) /domain:multiple /labels /config:$(Configuration) /out:$(testResultsTxt) /xml:$(testResultsXml) $(projectFile)" ContinueOnError="true"/>
+  </Target>
+
+  <Target Name="SpecflowReports">
+    <Exec Command="$(SpecflowExe) nunitexecutionreport $(projectFile) /xmlTestResult:$(testResultsXml) /testOutput:$(testResultsTxt) /out:&quot;$(teamcity_build_checkoutDir)\SpecFlowExecutionReport.html&quot;"/>
+    <Exec Command="$(SpecflowExe) stepdefinitionreport $(projectFile) /out:&quot;$(teamcity_build_checkoutDir)/SpecFlowStepDefinitionReport.html&quot;"/>
+    <Exec WorkingDirectory="$(teamcity_build_checkoutDir)\WebTutorTests" Command="SpecFlow.ReportDecoder.exe &quot;$(teamcity_build_checkoutDir)\SpecFlowExecutionReport.html&quot;"/>
+  
+  
+  </Target>
+
+  <Target Name="DoAll">
+    <CallTarget Targets="RunTests"/>
+    <CallTarget Targets="SpecflowReports"/>
+  </Target>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="environmentsConfiguration" type="Etna.QA.TestAutomation.Framework.Configuration.EnvironmentsConfiguration,Etna.QA.TestAutomation.Framework" />
+    <section name="driverConfiguration" type="Etna.QA.TestAutomation.Framework.Configuration.DriverConfiguration,Etna.QA.TestAutomation.Framework" />
+  </configSections>
+  <driverConfiguration targetDriver="Firefox" isRemote="false" takeScreenshots="true" />
+  <environmentsConfiguration targetEnvironment="Local">
+    <environments>
+      <environment name="Local" app="App">
+        <apps>
+          <app name="App" url="http://localhost" />
+        </apps>
+        <users>
+          <user name="Default" login="user" password="user" />
+        </users>
+      </environment>
+    </environments>
+  </environmentsConfiguration>
+</configuration>

@@ -1,0 +1,36 @@
+D:\BarabasWS\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+D:\BarabasWS\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+D:\BarabasWS\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+D:\BarabasWS\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+D:\BarabasWS\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
+D:\BarabasWS\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\worck\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+I:\worck\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+I:\worck\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+I:\worck\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\worck\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+I:\worck\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\WebTutor\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\WebTutor — копия\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\RoZetKa\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\bin\Debug\SpecFlowExecutionReport.html
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\bin\Debug\SpecFlow.ReportDecoder.pdb
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.csprojResolveAssemblyReference.cache
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.exe
+I:\workspace\RoZetKa\Rozetka\SpecFlow.ReportDecoder\obj\Debug\SpecFlow.ReportDecoder.pdb
